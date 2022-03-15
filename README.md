@@ -1,10 +1,10 @@
-BARBU MARIA-ALEXANDRA, 325CD
+## BARBU MARIA-ALEXANDRA, 325CD
 
-TEMA 3- IOCLA- ARBORE SINTACTIC ABSTRACT 
+# TEMA 3- IOCLA- ARBORE SINTACTIC ABSTRACT 
 
-Functia "iocla_atoi":
+### Functia "iocla_atoi":
 
-	Functia primeste ca parametru un numar sub forma de string. Parcurg byte cu
+Functia primeste ca parametru un numar sub forma de string. Parcurg byte cu
 byte sirul de caractere incrementand progresiv un contor pentru a afla lungimea
 stringului. Daca numarul este negativ, ignor la numaratoare caracterul "-". 
 Ulterior, revin cu pointerul la inceputul sirului si incep sa il parcurg din
@@ -19,9 +19,9 @@ fiecare caracter din stringul initial. In final, aceasta suma contine numarul
 cautat in baza 10. Pentru numere negative, am ignorat initial minusul si in
 final am folosit instructiunea "neg". 
 
-Functia create_tree:
+### Functia create_tree:
 
-	Functia primeste un string care contine parcurgerea in preordine a arborelui.
+Functia primeste un string care contine parcurgerea in preordine a arborelui.
 Pentru a obtine fiecare element din viitorul arbore sintactic, am apelat
 functia externa "strtok". Pentru a aloca memorie pentru fiecare token obtinut,
 am apelat functia externa "strdup". Pentru a aloca memorie pentru fiecare nod,
