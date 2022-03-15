@@ -1,0 +1,20 @@
+{
+    "name": "tema3_iocla",
+    "deps": [
+        "gcc",
+        "python3",
+        "nasm"
+    ],
+    "tasks": [
+        {
+            "name": "ast",
+            "points": 90,
+            "tests": 90,
+            "timeout": 2,
+            "stdin": true,
+            "stdout": true
+        }
+    ],
+    "penalty_readme": 10,
+    "penalty_warnings": 0
+}
